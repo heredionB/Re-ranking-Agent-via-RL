@@ -1,6 +1,6 @@
 
 import os
-os.environ["ANTHROPIC_API_KEY"] = "your_key_here"
+os.environ["ANTHROPIC_API_KEY"] = "api_key"
 #from anthropic import AsyncAnthropic
 import asyncio
 from tasks.rearank_task import PROMPT
